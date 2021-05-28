@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/inboxes"
+            android:icon="@drawable/ic_baseline_all_inbox_24"
+            android:title="All inboxes" />
+
+
+        <item
+            android:title=""
+            >
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/inbox"
+                        android:icon="@drawable/ic_baseline_inbox_24"
+                        android:title="Inbox" />
+                    <item
+                        android:id="@+id/snooz"
+                        android:icon="@drawable/ic_baseline_watch_later_24"
+                        android:title="Snoozed"/>
+                    <item
+                        android:id="@+id/done"
+                        android:icon="@drawable/ic_baseline_done_24"
+                        android:title="Done" />
+
+                </group>
+            </menu>
+        </item>
+        <item
+
+            android:title="">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/drafts"
+                        android:icon="@drawable/ic_baseline_drafts_24"
+                        android:title="Drafts" />
+
+                    <item
+                        android:id="@+id/sent"
+                        android:icon="@drawable/ic_baseline_send_24"
+                        android:title="Send" />
+
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/reminders"
+                        android:icon="@drawable/ic_baseline_touch_app_24"
+                        android:title="Reminders" />
+
+                    <item
+                        android:id="@+id/settings"
+                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:title="Settings" />
+
+                    <item
+                        android:id="@+id/help"
+                        android:icon="@drawable/ic_baseline_help_24"
+                        android:title="Help/Feedback" />
+
+                </group>
+            </menu>
+
+
+        </item>
+
+    </group>
+</menu>
